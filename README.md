@@ -4,7 +4,9 @@ dismathportfolio-BluntMacchiato created by Classroom for GitHub
 
 I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for disjunction,⊕ for exclusive disjunction, → for implication, and ↔ for biconditional.
 
+Logical Symbol |	Logical Operator |	Shorthand	Formula |	Logical Expression 
+--- | --- | --- | ---
+*this* | `table is` | looking | **good**
+1 | 2 | 3 | 4 
 
-
-Logical Symbol |	Logical Operator |	Shorthand	Formula |Logical Expression
 #unfinished 
