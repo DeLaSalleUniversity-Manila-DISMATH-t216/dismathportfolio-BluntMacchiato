@@ -30,4 +30,10 @@ I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for d
 |*¬* | Biconditional  | iff |
 | 1 | 2 | 3 |
 
+
+| Logical Symbol | Logical Operator |	Logical Use |
+| -------------- |:----------------:| -----------:|
+| *¬*      | Negation         |   not |
+| *∧*      | Disjunction      |   and |
+| *∨*      | Disjunction      |    or |
 #unfinished
