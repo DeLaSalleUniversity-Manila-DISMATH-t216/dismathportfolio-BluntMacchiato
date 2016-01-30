@@ -8,7 +8,7 @@ The logical puzzle of knights and knaves was presented to show an example of wha
 #Week 2:
 Basic terms like proof, proposition, axioms, logical deduction, 
 
-The types of truth:
+The Truths:
 *Legal truth 
 *Authoritative truth 
 *Scientific truth 
@@ -21,7 +21,7 @@ I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for d
 
 **~~Strange Symbols~~  Logical Connectives**
 | Logical Symbol | Logical Operator |	Logical Use |
-|---|:---:| ---:|
+| ------------- |:-------------:| -----:|
 |*¬* | Negation | not |
 |*∧* | Conjunction | and |
 |*¬* | Disjunction  | or |
