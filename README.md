@@ -23,7 +23,7 @@ I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for d
 | Logical Symbol | Logical Operator |	Logical Use |
 |--- | --- | ---| ---|
 |*¬* | Negation | not |
-|*¬* | Conjunction | and |
+|*∧* | Conjunction | and |
 |*¬* | Disjunction  | or |
 |*¬* | Exclusive or  | xor |
 |*¬* | Conditional  | if, then |
@@ -31,4 +31,5 @@ I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for d
 
 |1 | 2 | 3 |
 
-#unfinished 
+#unfinished
+#went to a cave to study how to make tables
