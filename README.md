@@ -20,15 +20,15 @@ The types of truth:
 I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for disjunction,⊕ for exclusive disjunction, → for implication, and ↔ for biconditional.
 
 **~~Strange Symbols~~Logical Connectives**
-Logical Symbol |  |	Logical Operator |	Logical Use |
---- | --- | --- | ---
-*¬* | Negation | not | **'**
-*¬* | Conjunction | and | **good**
-*¬* | Disjunction  | or | **good**
-*¬* | Exclusive or  | xor | **good**
-*¬* | Conditional  | if, then | **good**
-*¬* | Biconditional  | iff | **good**
+Logical Symbol | Logical Operator |	Logical Use 
+--- | --- | --- 
+*¬* | Negation | not 
+*¬* | Conjunction | and 
+*¬* | Disjunction  | or 
+*¬* | Exclusive or  | xor
+*¬* | Conditional  | if, then
+*¬* | Biconditional  | iff 
 
-1 | 2 | 3 | 4 
+1 | 2 | 3 
 
 #unfinished 
