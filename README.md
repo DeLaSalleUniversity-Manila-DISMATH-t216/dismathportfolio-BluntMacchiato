@@ -21,7 +21,7 @@ I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for d
 
 **~~Strange Symbols~~Logical Connectives**
 | Logical Symbol | Logical Operator |	Logical Use |
-|--- | --- | ---| ---|
+|--- | --- | ---|
 |*¬* | Negation | not |
 |*∧* | Conjunction | and |
 |*¬* | Disjunction  | or |
@@ -32,4 +32,3 @@ I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for d
 |1 | 2 | 3 |
 
 #unfinished
-#went to a cave to study how to make tables
