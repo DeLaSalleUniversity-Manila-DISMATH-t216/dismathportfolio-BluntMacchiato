@@ -28,7 +28,6 @@ I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for d
 |*¬* | Exclusive or  | xor |
 |*¬* | Conditional  | if, then |
 |*¬* | Biconditional  | iff |
-
 | 1 | 2 | 3 |
 
 #unfinished
