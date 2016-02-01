@@ -18,17 +18,17 @@ The Truths:
 
 
 I learned strange symbols, e.x., ¬ for Negation, ∧ for conjunction, ∨ for disjunction,⊕ for exclusive disjunction, → for implication, and ↔ for biconditional.
+I was taught about Logical Connectives.
 
-**~~Strange Symbols~~  Logical Connectives**
-| Logical Symbol | Logical Operator |	Logical Use |
-| ------------- |:-------------:| -----:|
-|*¬* | Negation | not |
-|*∧* | Conjunction | and |
-|*¬* | Disjunction  | or |
-|*¬* | Exclusive or  | xor |
-|*¬* | Conditional  | if, then |
-|*¬* | Biconditional  | iff |
-| 1 | 2 | 3 |
+| Logical Symbol | Logical Operator |	Shorthand | Logical Expression |
+| ------------- |:-------------:| -----:| -----:|
+|*¬* | Negation | not |¬p|
+|*∧* | Conjunction | and |p ∧ q|
+|*¬* | Disjunction  | or |p v q|
+|*¬* | Exclusive or  | xor |p ⊕ q ≡ (¬p ∧ q) v (p ∧ ¬q)|
+|*¬* | Conditional  | if, then |p → q ≡ ¬p v q|
+|*¬* | Biconditional  | iff |p → q ≡ ¬p v q|
+| 1 | 2 | 3 |-----:|
 
 
 | Logical Symbol | Logical Operator |	Logical Use |
