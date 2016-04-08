@@ -1,5 +1,5 @@
 # dismathportfolio-BluntMacchiato
-dismathportfolio-***BusiñosMichi*** created by Classroom for GitHub
+dismathportfolio-****** created by Classroom for GitHub
 
 #WEEK 1:
 - I was introduced to Discrete Mathematics and its significance in engineering and the current information society.		
