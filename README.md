@@ -1,6 +1,8 @@
 # dismathportfolio-BluntMacchiato
 dismathportfolio-****** created by Classroom for GitHub
 
+11413131 Businos, Michael Anthony T. DISMATH-EL
+
 #WEEK 1:
 - I was introduced to Discrete Mathematics and its significance in engineering and the current information society.		
 - The Syllabus was explained for me to know what is to be expected in the course.		
@@ -103,13 +105,165 @@ dismathportfolio-****** created by Classroom for GitHub
 #Week 5:
 - **Mathematical Induction** has two steps:
 	- Basis Step
-	- Inductive Step
+	- Inductive Step create a equation for finding its value
 - **Recursive Algorithms**:
 	- recursive algorithm solves a problem by reducing it to an instance of the same problem with smaller input.
 
-# **#imtrying**
-#Week 5:
-#Week 5:
-#Week 5:
-#Week 5:
-#Week 5:
+- **Program Correctness**
+	- proof that shows that the program will always give the correct output for every possible input.
+	- Proof of correctness of programs through the use of mathematical induction.
+	- It is said to be correct if it produces the correct output for every possible input.
+	- This is proven if the program:
+		1. Show that the correct answer is obtained.
+		2. Show that the program always terminates. 
+- **Partial Correctness**
+	- Two propositions are used to specify what it means for a program to produce the correct output:
+	- Initial Assertion gives the properties that the input values must have
+	- Final Assertion gives the properties that the output of the program should have, if the program did what it was told
+	- Partial Correctness can be proved by Hoare Triple and by Rules of Inference.
+- **Hoare Triple**
+	- p{s}q 	A Hoare triple has three parts, a precondition P, a program statement or series of statements S, and a postcondition Q. 
+	- The meaning is "if P is true before S is executed, and if the execution of S terminates, then Q is true afterwards". 
+- **Rules of Inference**
+	- Conditional Statements
+- **Power Series**
+- Introduction to Set Theory
+#Week 6:
+- **Set Theory**
+	- set is an unordered list of distinct objects
+	- sets can be represented by Set Builder Notation {x | some property that x satisfies}
+	- Empty Set { } = ∅ means no elements
+- **Subsets ⊆**
+	- A set S is a subset of a set T (denotes S ⊆ T) if all elements of S are also elements of T
+- **Cardinality |S|**
+	- TThe term cardinality refers to the number of cardinal (basic) members in a set. 
+	- Cardinality can be finite (a non-negative integer) or infinite.
+- **Functions**
+	- Different types  of functions
+		1. One-to-One (Injective) it never maps distinct elements of its domain to the same element of its codomain.
+		2. Onto (Surjective) funtions have equal range & co-domain.
+		3. One-to-One Onto (Bijective) is both one - to - one and onto.
+- 
+
+#Week 7:		
+No Classes
+#Week 8:
+- **Algorithm**
+	- A set of rules followed by the computer
+	- Pseudocode is an informal high-level description of the operating principle of a computer program or other algorithm.
+	- It uses the structural conventions of a programming language, but is intended for human reading rather than machine reading.
+	- Valide INput and output
+	- sample:
+```	
+	PROCEDURE max(a1, a2, ... an: Z)  
+	max = a1  
+	    for i = 2 to n	  
+		if max < aj then max = aj  
+	{Output: max is the largest element}
+```
+
+#Week 9:
+- **Types of Algorithm Discussed**
+	- **Searching Algorithms** 
+	 	- Problem of locating an algorithm in an ordered list
+		- **Linear Search** 
+		 	- finding a particular value in a list that checks each element in sequence until the desired element is found
+		- **Binary Search** 
+			- comparing the middle values of a list then repeated until the desired output is found.
+	- **Sorting Algorithms** 
+	 	- Problem of assorting elements into increasing order
+		- **Bubble Sort** 
+			- compares the first two elements then interchanging them if they are in the incorrect order.
+		- **Insertion Sort** 
+			- compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+	- **Greedy Algorithm** 
+	 	- Algorithms that make what seems to be the "best" choice at each step. 
+		- Selects the best choice at each step, instead of considering all sequences of steps that may lead to optimal solution
+
+#Week 10:
+
+- **Introduction to Growth of Functions**
+- **Big-O Notation**
+	- Let f and g be functions from R-R; f(x) is O(g(x)) 
+	- if there are constants C and k such that: |f(x)| ≤ C|g(x)| whenever x > k.
+	- Example: f(x)=x^2 + 2x + 1; O(x^2); k=1, C=4
+- **Big-Omega and Big-Theta Notation**
+	- Big-O Notation does not provide a lowerbound for the size of f(x). 
+	- Big-Omega (Big-Ω) - Lower bound 
+	- Big-Theta (Big-Θ) - Both upper and lower bound
+- **Algorithm Time Complexity **
+	- usually expressed in terms of operations used by the algorithm when the input has a particular size.
+- **Division and Modulo Operator**
+#Week 11:
+No Classes
+#Week 12:
+- **Graph Theory**
+- **Introduction to Graph Theory**
+- G=(V,E)It is a structure that consists of Vertices or nodes and Edges or connections.
+- **Definitions**
+	- Degree of a node is the number of edges incident with it but loops are counted twice.
+	- Subgraph - A graph whose vertices and edges are subsets of another graph.
+	- Path is created when walking from node to node along the edges.
+	- Pendant is a node with only one degree.
+	- Isolated a node with no connections
+	- Isomorphic Graphs are graphs that have equal nodes, and have the same connection.
+- **Handshaking Theorem**: 2e = Sum[deg(v)] where e is the total number of edges in the graph.
+- **Euler's Circuit and Path**
+	- Euler's Circuit is a (closed) walk wherein it covers all edges exactly once and goes back to the vertex where it started.
+	- exists whenever every vertex in the graph has even degree.
+	- while Euler Path is a (open) walk where all edges are covered once. 
+	- exists whenever there are exactly two vertices with odd degree.
+- **Euler's Formula**: r = e - v + 2, where r is the number of regions formed by a graph.
+	- Euler's Formula can be manipulated to produce Euler's characteristic: x = r - |e| + |v| = 2
+- **Hamilton Circuit and Path**
+	- Hamilton Circuit a (closed) walk where all nodes are covered once and returns to the origin node.
+	- Hamilton path an open walk where all nodes are covered and does not return to the origin node.
+- **Matrices of Graph** - 1 for adjacent; 0 for non-adjacent
+	- Adjacency Matrix - to put a graph into a table by identifying connections of an edge between vertices.
+	- Incidence Matrix - table between edges and vertices
+- **Planar Graph**
+	- Planar graph is a graph where no edges intersect.
+- **Homeomorphic Graphs**
+	- Elementary Subdivision - Everything is planar graph
+- **Kuratowskis Theorem **
+	- states that a graph is non-planar if and only if it contains a subgraph homeomorphic to K(3,3) and K(5).
+#Week 13:
+- **Graph Coloring**
+	- assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color
+	- Four Color Theorem is the chromatic number of a planar graph is no greater than four
+- **Trees**
+	- connected undirected graph with no simple circuits
+	- data structure that emulates a heirarchical tree structure with a set of linked notes used to construct efficient algorithms for locating an item in a set
+	- Forest - multiple trees
+	- Rooted Tree - a tree in which one vertex has been designated as the root and every edge
+	- leaves - nodes that do not have children
+	- ancestors - nodes on top
+	- descendants - children/grandchildren
+	- Subtree
+	- M-ary tree - if every internal vertex has no more than m children an m-ary tree with m = 2 is called a binary tree
+- **Modeling Computation**
+	- Language and Grammars
+		- Grammars - used to generate the words of a language and to determine whether a word is in a language
+		- Compiler - reads a program written in a source language and translate it into an equivalent program in a target language.
+		- Formal Language - automatic translation of one language to another well defined set of rules
+- **Alphabet & String**
+	- common way to talk about words, numbers, etc.
+- **Automata Theory**
+	- Law of computation
+	- Finite Automata - simplest model of automata 
+		- initial state
+		- final/acceptance state
+		- dead/stuck state
+		- transition
+- **Lexical Analysis**
+	- process where the stream of characters making up the source program into a sequence of "words" that make up the source code.
+- **Finite State Machine**
+	- finite-state automaton M = (S, I, O, f, g, s0) 
+		- S: Finite set of states
+		- I: Finite input alphabet
+		- O: Finite output alphabet
+		- f: Transition function
+		- g: Output function
+		- s0: Initial state 
+		- 
+THANKYOU!
